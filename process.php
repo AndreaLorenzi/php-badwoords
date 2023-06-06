@@ -19,5 +19,6 @@
     <h2>paragrafo con parola censurata: <?= $word; ?> </h2>
     <p> paragrafo con parola censurata: <?= $censura; ?> </p>
     <p> parole censurate: <?= $num_censura;?></p>
+    <h4>lunghezza paragrafo: <?= strlen($paragraph);?></h4>
 </body>
 </html>
